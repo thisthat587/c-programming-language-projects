@@ -1,3 +1,4 @@
+//Compatible to TURBOC3 so compile and run on TURBOC3.
 #include<stdio.h>
 #include<dos.h>
 #include<conio.h>
