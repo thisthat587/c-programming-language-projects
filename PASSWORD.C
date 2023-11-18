@@ -1,3 +1,5 @@
+//This is the code for the password encryption of length four
+
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
