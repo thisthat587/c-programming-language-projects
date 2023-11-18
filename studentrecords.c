@@ -1,5 +1,5 @@
-//As of now this file is incomplete.
-
+//As of now this file is incomplete but it is functional.
+//Compatible to Kate IDE in Linux 
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
