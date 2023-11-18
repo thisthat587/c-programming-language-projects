@@ -11,8 +11,8 @@ void main()
 	printf("Enter password: ");
 	for(i=0;i<4;i++)
 		{
-		password[i]=getche();
-		printf("#");
+		password[i]=getch();
+		printf("*");
 		}
 	printf("\n");
 	password[i]='\0';
