@@ -1,3 +1,6 @@
+//This is the file having code for to navigate through three levels 
+//*easy, *medium , *hard and one can navigate it with the help of 
+//'w' and 's' , 'w' to go up and 's' to go down.
 #include<stdio.h>
 #include<conio.h>
 #include<graphics.h>
