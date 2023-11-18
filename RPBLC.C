@@ -1,0 +1,70 @@
+#include<stdio.h>
+#include<conio.h>
+#include<graphics.h>
+void main()
+	{
+	int i,j;
+	int gd=DETECT,gm;
+	initgraph(&gd,&gm,"c:\\turboc3\\BGI");
+	cleardevice();
+	setfillstyle(SOLID_FILL,9);
+	bar(10,10,630,400);
+	setfillstyle(SOLID_FILL,10);
+	bar(10,400,630,470);
+      /*	for(i=50;i<=500;i++)
+		{
+		setcolor(GREEN);
+		rectangle(50,450,i,500);
+		delay(0);
+		}   */
+	for(i=150;i<=235;i++)
+		{
+		setcolor(WHITE);
+		rectangle(150,425,i,447);
+		delay(10);
+		}
+	for(i=238;i<=309;i++)
+		{
+		setcolor(WHITE);
+		rectangle(238,425,i,447);
+		delay(10);
+		}
+	for(i=195;i<=275;i++)
+		{
+		setcolor(BROWN);
+		rectangle(195,402,i,423);
+		delay(10);
+		}
+	for(i=50;i<=400;i++)
+		{
+		setcolor(RED+GREEN);
+		rectangle(225,50,247,i);
+		delay(10);
+		}
+	for(i=250;i<=500;i++)
+		{
+		setcolor(RED+GREEN);
+		rectangle(250,50,i,95);
+		setcolor(WHITE);
+		rectangle(250,100,i,145);
+		setcolor(BLUE);
+		circle(375,122.5,15);
+		circle(376,123,1);
+		line(375,122,385.5,134);
+		line(375,122,375,107);//vertical
+		line(375,122,365,111);
+		line(375,122,365,132);
+		line(375,122,375,137);//vertical
+		line(375,122,385,111);
+		line(375,122,390,122);//horizontal
+		line(375,122,360,122);//horizontal
+		setcolor(GREEN);
+		rectangle(250,150,i,195);
+		delay(10);
+		}
+	delay(500);
+	setcolor(RED);
+	settextstyle(1,0,5);
+	outtextxy(125,0,"HAPPY REPUBLIC DAY");
+	getch();
+	}
